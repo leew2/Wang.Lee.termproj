@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 /*
   REFERENCES: https://react.dev/learn/tutorial-tic-tac-toe
-  
+
 */
 
 
@@ -57,7 +57,7 @@ function CreateForm(){
 export default function App() {
   return (
     <>
-    
+    <title>Account Creation</title>
     <div class="createAccount">
       <header class="headerCSS">
         <h2 style={{height: 50+"px"}} >Concordia University, St Paul</h2>
@@ -67,6 +67,8 @@ export default function App() {
           <Page display="Create Account" />
         </div>
       </header>
+
+      <h2 style={{textAlign:"center"}}>Create An Account</h2>
 
       <User />
       
